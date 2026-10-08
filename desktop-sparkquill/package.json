@@ -9,8 +9,8 @@
   "scripts": {
     "setup": "./dev-setup.sh",
     "test": "node --test lib/*.test.js",
-    "start": "npx electron .",
-    "build": "electron-builder --mac --arm64 --dir",
+    "start": "node init && npx electron .",
+    "build": "node init && electron-builder --mac --arm64 --dir",
     "dist": "electron-builder --mac --arm64 --publish always"
   },
   "dependencies": {

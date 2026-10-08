@@ -1,12 +1,5 @@
 # Environment files - NEVER commit these!
-.env
-.env.*
 !.env.example
-.env.local
-.env.development
-.env.production
-.env.test
-.env.staging
 
 agent_go/configs/mcp_server_actual.json
 
@@ -136,7 +129,6 @@ gitleaks-maintenance.json
 .gitleaks-cache/
 
 .cursor/
-.vscode/
 
 gcp-oauth.keys.json
 
@@ -209,3 +201,7 @@ transcript.txt
 
 # MCP Gateway local state (sqlite oauth store)
 /mcp-gateway/var/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
